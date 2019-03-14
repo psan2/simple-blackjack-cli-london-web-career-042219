@@ -31,7 +31,7 @@ end
 def hit?(hand)
   prompt_user
   choice = get_user_input
-  if choice = ='h'
+  if choice =='h'
     hand =+ deal_card
   elsif choice == 's'
     hand
